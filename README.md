@@ -2,7 +2,7 @@
 
 ## Overview
 
-This dataset is derived from the first-party data of freeview linear television in a European region, serving a population of over 5 million individuals with a high internet penetration rate of over 85%. The dataset spans a one-year collection period (52 weeks) comprising 62,911,754 sessions recorded from 352,987 unique devices connected via HbbTV.
+This dataset is derived from the _first-party data_ of **freeview linear television** in a European region, serving a population of over **5 million** individuals with a **high internet penetration rate** of over 85%. The dataset spans a **one-year** collection period (**52 weeks**) comprising **62,911,754 sessions** recorded from **352,987 unique devices** connected via _HbbTV_.
 
 ## Dataset Details
 
@@ -21,7 +21,7 @@ This dataset is derived from the first-party data of freeview linear television 
   - **regular**
   - **occasional**
   - **non-viewers**
-- A session is defined from when a device tunes in to a channel until the viewer switches to another channel. Short zapping sessions (less than 300 seconds) and extreme sessions (more than 1800 seconds) were filtered out for analysis.
+- A session is defined from when a device tunes in to a channel until the viewer switches to another channel. Short **zapping** sessions (less than _300 seconds_) and **extreme** sessions (more than _1800 seconds_) were filtered out for analysis.
 - The dataset underwent processing to exclude non-compliant sessions, focusing on the first **19,386 devices** with the highest activity (only devices labelled as **'regular'** and **'fan'**).
 
 ## Features Included
@@ -42,13 +42,13 @@ The dataset includes additional columns providing insights into different aspect
 
 ## Dataset Metrics
 
-The dataset comprises 140 individual independent variables encompassing 19 distinct genres. For device classification purposes, a subset of 33 features was utilised, capturing essential aspects of viewer engagement, genre relevance, and behavioural tendencies.
+The dataset comprises 140 individual independent variables encompassing **19 distinct genres**. For device classification purposes, a **subset of 33 features** was utilised, capturing essential aspects of viewer engagement, genre relevance, and behavioural tendencies.
 
-Specifically, the features utilized for conducting the classification of households were:
+Specifically, the 33 features utilised for conducting the classification of households were:
 
 - **viewership**
 - **weekdays_vs_weekends**
 - **weekdays**
 - **weekends**
-- **genre_nwrae** (for each of the 19 genres)
+- **genre_nwrae** (for each of the _19 genres_)
 - **kids_presence**

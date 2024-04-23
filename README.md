@@ -21,7 +21,7 @@ This dataset is derived from the _first-party data_ of **freeview linear televis
   - **regular**
   - **occasional**
   - **non-viewers**
-- A session is defined from when a device tunes in to a channel until the viewer switches to another channel. Short **zapping** sessions (less than _300 seconds_) and **extreme** sessions (more than _1800 seconds_) were filtered out for analysis.
+- A session is defined from when a device tunes in to a channel until the viewer switches to another channel. Short **zapping** sessions (less than _300 seconds_) and **extreme** sessions (more than _10,800 seconds_) were filtered out for analysis.
 - The dataset underwent processing to exclude non-compliant sessions, focusing on the first **19,386 devices** with the highest activity (only devices labelled as **'regular'** and **'fan'**).
 
 ## Features Included
@@ -38,17 +38,16 @@ The dataset includes additional columns providing insights into different aspect
 - **genre_wrae**: weighted RAE metric for a specific genre
 - **genre_nwrae**: normalised WRAE metric for a specific genre
 - **kids_content**: enthusiast, regular, occasional, no_commitment
-- **Clusters from cluster analysis**: weekdays (morning, lunch, afternoon, evening, dinner) and weekends (morning, lunch, evening, dinner, afterdinner-night)
+- **Clusters from cluster analysis**: weekdays (morning, lunch, afternoon, evening, dinner) and weekend (morning, lunch, evening, dinner, afterdinner-night)
 
 ## Dataset Metrics
 
-The dataset comprises 140 individual independent variables encompassing **19 distinct genres**. For device classification purposes, a **subset of 33 features** was utilised, capturing essential aspects of viewer engagement, genre relevance, and behavioural tendencies.
+The dataset comprises 138 individual independent variables encompassing **19 distinct genres**. For device classification purposes, a **subset of 31 features** was utilised, capturing essential aspects of viewer engagement, genre relevance, and behavioural tendencies.
 
-Specifically, the 33 features utilised for conducting the classification of households were:
+Specifically, the 31 features utilised for conducting the classification of households were:
 
 - **viewership**
-- **weekdays_vs_weekends**
 - **weekdays**
-- **weekends**
+- **weekend**
 - **genre_nwrae** (for each of the _19 genres_)
 - **kids_presence**

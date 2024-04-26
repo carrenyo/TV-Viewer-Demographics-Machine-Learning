@@ -42,9 +42,16 @@ The dataset includes additional columns providing insights into different aspect
 
 ## Dataset Metrics
 
-The dataset comprises 138 individual independent variables encompassing **19 distinct genres**. For device classification purposes, a **subset of 31 features** was utilised, capturing essential aspects of viewer engagement, genre relevance, and behavioural tendencies.
+The dataset comprises 138 individual independent variables encompassing **19 distinct genres**. For device classification purposes, a **subset of 31 features** was utilised, capturing essential aspects of viewer engagement, genre relevance, and behavioural tendencies. Additionally, each device was classified based on a well-established approach in sociodemographic research, aligning their usage timing and preferred content genres with a **household taxonomy** based on _life cycle stages_, including:
 
-Specifically, the 31 features utilised for conducting the classification of households were:
+- **Couple with young kids (0-8 years)**
+- **Couple with teenagers (9-17 years)**
+- **Couple with adult children (18+ years)**
+- **Only young adults (18-35 years)**
+- **Only middle-aged adults (36+ years)**
+- **Seniors (elderly/retired adults)**
+
+Specifically, the 31 features utilized for conducting the classification of households were:
 
 - **viewership**
 - **weekdays**
